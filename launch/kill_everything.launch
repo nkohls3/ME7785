@@ -1,0 +1,8 @@
+<launch>
+
+    <include file="/home/burger/catkin_ws/src/turtlebot3/turtlebot3_bringup/launch/turtlebot3_robot.launch" />
+    <include file="/home/burger/catkin_ws/src/turtlebot3/turtlebot3_bringup/launch/turtlebot3_remote.launch" />
+
+    <node name="stop_wheels" pkg="team_mazumdar_final_project" type="stop_wheels.py" />
+
+</launch>
